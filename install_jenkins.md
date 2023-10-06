@@ -2,7 +2,7 @@ Dentro de la consola de jenkins
 en caso de erro por permisos de la carpeta SSH-KEY-Jenkins
     - `chmod 400 SSH-KEY-Jenkins`
 acceder a la consola
-    - `ssh -i SSH-KEY-Jenkins ubuntu@3.76.253.230` ubuntu es el nombre por defecto y la ip pública de la instancía
+    - `ssh -i SSH-KEY-Jenkins ubuntu@x.xx.xxx.xxx` ubuntu es el nombre por defecto y la ip pública de la instancía
 
 Una vez dentro:
 - `sudo apt update`
