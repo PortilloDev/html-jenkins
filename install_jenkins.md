@@ -43,7 +43,7 @@ y en caso de no ser privado no hará falta añadir clave
     - marcar el disparador  "GitHub hook trigger for GITScm polling"
 
 En github ir al repo / settings / webhooks / add
-- añadir PayloadUrl, que es el host y puerto de nuestro jenkins y agregandole http://xxxxxx:8080/github-webhooks
+- añadir PayloadUrl, que es el host y puerto de nuestro jenkins y agregandole `github-webhooks` =>  http://xxxxxx:8080/github-webhooks
 - marcar let me select indiviual events
     marcar check de pull request y pushes
     guardar
